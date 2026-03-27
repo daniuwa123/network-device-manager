@@ -1,0 +1,111 @@
+# .gitignore
+
+# Python相关
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller 相关
+*.manifest
+*.spec
+dist/
+build/
+
+# 虚拟环境
+venv/
+ENV/
+env/
+.venv
+.env
+
+# IDE相关
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+*.sublime-workspace
+*.sublime-project
+
+# 测试相关
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.hypothesis/
+
+# 日志和数据
+*.log
+log/
+terminal_data.json
+terminal_data.json.bak.*
+blocked_network_attempts.log
+build_output.log
+build.log
+app.log
+
+# 配置和敏感文件
+network_tool_config.json
+*.bak
+*.backup
+*.old
+config.json
+credentials.json
+
+# 临时文件
+temp/
+tmp/
+*.tmp
+*.temp
+
+# 备份
+backup/
+backups/
+*.zip
+*.tar.gz
+
+# 特定的项目文件
+/back/
+/terminal_data/
+/dist/
+/build/
+
+# 密钥和令牌
+*.key
+*.pem
+*.pfx
+.env
+.env.local
+
+# 操作系统
+Thumbs.db
+.DS_Store
+desktop.ini
+
+# 其他
+.cache
+.pytest_cache
+.mypy_cache
+.dmypy.json
+dmypy.json
